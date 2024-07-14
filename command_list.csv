@@ -1,0 +1,29 @@
+    1  git clone [200~https://github.com/yuraivasyk/HW_10.git~
+    2  git clone https://github.com/yuraivasyk/HW_10.git
+    3  cd HW_10
+    4  touch text_ignore.txt
+    5  nano .gitignore
+    6  git status
+    7  git add .gitignore
+    8  git commit -m .gitignore
+    9  git status
+   10  git add text_ignore.txt
+   11  git commit -m text_ignore.txt
+   12  touch main_test.txt
+   13  git add main_test.txt
+   14  git commit -m main_test.txt
+   15  git checkout -b develop
+   16  touch develop_test.txt
+   17  git status
+   18  git add develop_test.txt
+   19  git commit -m develop_test.txt
+   20  nano develop_test.txt
+   21  git status
+   22  git add develop_test.txt
+   23  git commit -m develop_test.txt
+   24  git status
+   25  git checkout main
+   26  git status
+   27  git merge develop
+   28  git log
+   29  history > command_list.csv
